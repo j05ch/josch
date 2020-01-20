@@ -1,6 +1,6 @@
 {
   "name": "josch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My interactive CV.",
   "main": "src/index.js",
   "bin": {

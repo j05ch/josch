@@ -8,11 +8,7 @@ function Header() {
         <div>
             <div>{
                 chalk.red(
-                    figlet.textSync(
-                        'Jan Olaf Scholz', {
-                            horizontalLayout: 'full'
-                        }
-                    )
+                    figlet.textSync('Jan Olaf Scholz')
                 )
             }
             </div>
