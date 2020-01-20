@@ -1,0 +1,22 @@
+{
+  "name": "josch",
+  "version": "1.0.0",
+  "description": "My interactive CV.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j05ch/josch.git"
+  },
+  "keywords": [
+    "cv"
+  ],
+  "author": "j05ch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j05ch/josch/issues"
+  },
+  "homepage": "https://github.com/j05ch/josch#readme"
+}
