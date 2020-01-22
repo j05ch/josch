@@ -15,7 +15,7 @@ function Header() {
             }
             </Box>
             <Box>
-                <Color blue>Welcome! Please choose:</Color>
+                <Color blueBright> Welcome! Please choose:</Color>
             </Box>
             <Box> </Box>
         </Box>
