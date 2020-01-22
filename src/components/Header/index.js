@@ -1,21 +1,24 @@
+'use strict';
+
 const React = require('react');
 const figlet = require('figlet');
 const chalk = require('chalk');
-const {Color} = require('ink');
+const {Color, Box} = require('ink');
 
 function Header() {
     return (
-        <div>
-            <div>{
+        <Box flexDirection='column'>
+            <Box>{
                 chalk.red(
                     figlet.textSync('Jan Olaf Scholz')
                 )
             }
-            </div>
-            <div>
-                <Color blue>Welcome! Please choose: </Color>
-            </div>
-        </div>
+            </Box>
+            <Box>
+                <Color blue>Welcome! Please choose:</Color>
+            </Box>
+            <Box> </Box>
+        </Box>
     );
 }
 

@@ -1,13 +1,18 @@
+'use strict';
+
 const React = require('react');
+const {Box} = require('ink');
 const importJsx = require('import-jsx');
 
 const header = importJsx('../Header');
+const menu = importJsx('../Menu');
 
 function Main() {
     return(
-        <div>
+        <Box flexDirection='column'>
             {header}
-        </div>
+            {menu}
+        </Box>
     )
 }
 
