@@ -4,6 +4,7 @@ const React = require('react');
 const {useState} = require('react');
 const open = require('open');
 const {Color, Box, useInput} = require('ink');
+const items = require('./menuModel');
 
 function Menu() {
     const [selected, setSelected] = useState(0);
@@ -17,25 +18,6 @@ function Menu() {
             items[selected].action().then(() => {
             });
     });
-
-    const items = [
-        {
-            label: 'Go to my GitHub page',
-            action: async () => await open('https://github.com/j05ch', {url: true})
-        },
-        {
-            label: 'Download my CV',
-            action: async () => await open('https://scarif.net', {url: true})
-        },
-        {
-            label: 'Send me an e-mail',
-            action: async () => await open('mailto:mail@joscholz.com?Subject=Hi!')
-        },
-        {
-            label: 'Goodbye!',
-            action: () => process.exit()
-        }
-    ];
 
     const menuItems = items.map(
         ({label, action}, index) => {
